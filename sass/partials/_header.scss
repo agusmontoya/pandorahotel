@@ -1,0 +1,46 @@
+.header {
+    width: 100%;
+    display: flex;
+    background-color: $color-principal;
+    align-items: center;
+    padding: 15px 0;
+    .container {
+      margin: auto;
+      justify-content: space-between;
+      align-items: center;
+      h1 {
+        display: flex;
+        align-items: center;
+        img {
+          width: 50px;
+        }
+      }
+      .nav {
+        ul {
+          display: flex;
+          gap: 25px;
+        }
+      }
+      i {
+        display: none;
+      }
+    }
+  
+    @media (max-width: 600px) {
+      padding: 10px 0;
+      .container {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        nav {
+          display: none;
+        }
+  
+        i {
+          display: block;
+          font-size: 35px;
+          color: black;
+        }
+      }
+    }
+  }
