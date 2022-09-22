@@ -1,0 +1,41 @@
+.seccion__servicios {
+    h2 {
+        @include h2 ($color-secundario)
+    }
+    .container{
+        margin: auto;
+        max-width: 1440px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 60px 0;
+    
+        .card-servicios {
+            width: 400px;
+            height: 700px;
+            overflow: hidden;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+    
+            .imgservicios{
+                width: 300px;
+                height: 400px;
+                object-fit: cover;
+                transition: all 0.5s;
+            }
+            .imgservicios:hover{
+                padding: 20px;
+                opacity: 0.5;
+            }
+            h3 {
+                font-size: 20px;
+                text-align: center;
+                color: $color-secundario;
+            }
+        }
+    }
+}
+
