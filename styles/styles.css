@@ -403,4 +403,42 @@
   color: #7b876d;
 }
 
+.seccion__reservas {
+  background-image: url(../../images/reserva.png);
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+}
+.seccion__reservas h2 {
+  font-size: 45px;
+  text-align: center;
+  color: white;
+}
+.seccion__reservas .contenedor__reservas {
+  padding: 25px;
+  background-color: #ddb8a6;
+  max-width: 450px;
+  margin: 25px auto;
+  border-radius: 15px;
+}
+.seccion__reservas .contenedor__reservas form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  gap: 5px;
+}
+.seccion__reservas .contenedor__reservas form .cant-personas {
+  width: 50px;
+}
+.seccion__reservas .contenedor__reservas form .botoncontacto {
+  margin-top: 25px;
+  border: none;
+  padding: 0.5em 0;
+  border-radius: 5px;
+  background-color: #7b876d;
+  color: white;
+  cursor: p;
+}
+
 /*# sourceMappingURL=styles.css.map */
