@@ -1,0 +1,109 @@
+.contenedor-quienes-somos{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+    .quienes-somos{
+       flex-direction: column;
+       justify-content: space-around;
+       margin-top: 150px;
+       margin-left: 100px;
+       margin-right: 100px;
+        h2{
+            @include h2 ($color-secundario);
+            justify-content: center;
+        }
+
+        p{
+            font-size: 20px;
+            text-align: justify;
+            color: $color-secundario;
+        }
+    }
+    
+   
+}
+
+.contenedor-caracteristicas{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+    margin-right: 50px;
+
+    .caracteristicas{
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 150px;
+        margin-left: 100px;
+        margin-right: 100px;
+
+        h2 {
+            @include h2 ($color-secundario)
+        }
+
+        ul li{
+            font-size: 20px;
+            color: $color-secundario;
+            font-size: 20px;
+            text-align: justify;
+        }
+    }
+}
+
+.seccion-habitaciones{
+    display: flex;
+    background-image: url(../images/backgroundnosotros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin: 150px 0;
+
+    .div-listas {
+        background-color: $color-secundario;
+        width: 500px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 50px;
+        font-size: 25px;
+        position: relative;
+        right: 25px;
+        top: -25px;
+      }
+      .listas{
+        .listas-item{
+            display: flex;
+            color: white;
+            gap: 30px;
+            text-align: center;
+            font-size: 20px;
+          }
+      }
+
+      
+    }
+
+    .img-habitaciones{
+        h2{
+            text-align: center;
+            font-family: $primary-font;
+            font-size: 30px;
+            color: $color-secundario;
+        }
+
+        div{
+            display:flex;
+            justify-content: space-evenly;
+            margin-bottom: 20px;
+
+            img{
+                width: 400px;
+                transition: all 0.5s;
+            }
+            img:hover{
+                padding: 20px;
+                opacity: 0.5;
+            }
+        }
+    }
