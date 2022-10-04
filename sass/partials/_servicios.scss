@@ -33,7 +33,7 @@
             h3 {
                 font-size: 20px;
                 text-align: center;
-                color: $color-secundario;
+                color: map-get($colors, color-secundario);
             }
         }
     }

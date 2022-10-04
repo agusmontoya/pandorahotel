@@ -87,7 +87,7 @@
   
             a {
               margin-top: 15px;
-              background-color: $color-secundario;
+              background-color: map-get($colors,color-secundario);
               color: white;
               padding: 0.5em 0;
               border-radius: 10px;

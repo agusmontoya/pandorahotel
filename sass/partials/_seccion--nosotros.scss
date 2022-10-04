@@ -14,7 +14,8 @@
         p{
             font-size: 20px;
             text-align: justify;
-            color: $color-secundario;
+            color: map-get($colors, color-secundario);
+            font-family: map-get($fonts, primary-font);
         }
     }
     
@@ -38,7 +39,7 @@
 
         ul li{
             font-size: 20px;
-            color: $color-secundario;
+            color: map-get($colors, color-secundario);
             font-size: 20px;
             text-align: justify;
         }
@@ -54,7 +55,7 @@
     margin: 150px 0;
 
     .div-listas {
-        background-color: $color-secundario;
+        background-color: map-get($colors, color-secundario);
         width: 500px;
         height: 450px;
         display: flex;
@@ -82,7 +83,7 @@
     .img-habitaciones{
         h2{
             text-align: center;
-            font-family: $primary-font;
+            font-family: map-get($fonts, primary-font);
             font-size: 30px;
             color: $color-secundario;
         }

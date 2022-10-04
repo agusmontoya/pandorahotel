@@ -12,7 +12,7 @@
 
     .contenedor__reservas{
         padding: 25px;
-        background-color: $color-principal;
+        background-color: map-get($colors, color-primario);
         max-width: 450px;
         margin: 25px auto;
         border-radius: 15px;
@@ -29,13 +29,8 @@
             }
 
             .botoncontacto{
-                margin-top: 25px;
-                border: none;
-                padding: 0.5em 0;
-                border-radius: 5px;
-                background-color: $color-secundario;
-                color: white;
-                cursor: p;
+                @extend %boton-form;
+                background-color: map-get($colors, color-secundario);
             }
         }
     }

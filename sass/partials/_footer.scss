@@ -1,5 +1,5 @@
 .footer {
-    background-color: $color-principal;
+    background-color: map-get($colors, color-primario);
     .contenedor {
       max-width: 1440px;
       margin: auto;
@@ -38,10 +38,10 @@
     p {
       padding: 15px;
       text-align: center;
-      background-color: $color-secundario;
+      background-color: map-get($colors, color-secundario);
     }
     @media (max-width: 600px) {
-      background-color: $color-principal;
+      background-color: map-get($colors, color-primario);
       .contenedor {
         flex-direction: column;
         padding-top: 50px;

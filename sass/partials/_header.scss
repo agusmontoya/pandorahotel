@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     display: flex;
-    background-color: $color-principal;
+    background-color: map-get($colors, color-primario);
     align-items: center;
     padding: 15px 0;
     .container {

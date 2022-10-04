@@ -23,6 +23,15 @@
   font-family: "DM Serif Display", serif;
 }
 
+.seccion__reservas .contenedor__reservas form .botoncontacto, .seccion__contacto .contenedor__form form .botoncontacto {
+  margin-top: 25px;
+  border: none;
+  padding: 0.5em 0;
+  border-radius: 5px;
+  color: white;
+  cursor: p;
+}
+
 .header {
   width: 100%;
   display: flex;
@@ -237,13 +246,7 @@
   margin-bottom: 15px;
 }
 .seccion__contacto .contenedor__form form .botoncontacto {
-  margin-top: 25px;
-  border: none;
-  padding: 0.5em 0;
-  border-radius: 5px;
   background-color: #ddb8a6;
-  color: white;
-  cursor: p;
 }
 @media (max-width: 600px) {
   .seccion__contacto {
@@ -432,13 +435,7 @@
   width: 50px;
 }
 .seccion__reservas .contenedor__reservas form .botoncontacto {
-  margin-top: 25px;
-  border: none;
-  padding: 0.5em 0;
-  border-radius: 5px;
   background-color: #7b876d;
-  color: white;
-  cursor: p;
 }
 @media (max-width: 400px) {
   .seccion__reservas h2 {
@@ -466,6 +463,7 @@
   font-size: 20px;
   text-align: justify;
   color: #7b876d;
+  font-family: "DM Serif Display", serif;
 }
 
 .contenedor-caracteristicas {
