@@ -585,5 +585,50 @@
     width: 300px;
   }
 }
+@media (max-width: 768px) {
+  .contenedor-quienes-somos {
+    display: flex;
+    flex-direction: column;
+    max-width: 768px;
+    width: 100%;
+    margin: 0;
+  }
+  .contenedor-quienes-somos .quienes-somos h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .contenedor-quienes-somos .quienes-somos p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .contenedor-caracteristicas {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    width: 100%;
+    margin: 0;
+  }
+  .contenedor-caracteristicas .caracteristicas {
+    align-items: center;
+  }
+  .contenedor-caracteristicas .caracteristicas h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .contenedor-caracteristicas .caracteristicas ul li {
+    text-align: center;
+    font-size: 20px;
+  }
+  .img-habitaciones div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .img-habitaciones div img {
+    width: 500px;
+    height: 300px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
